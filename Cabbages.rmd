@@ -55,9 +55,16 @@ By looking at the two boxes you can clearly see they are disjoint. Indicating a 
 
 
 
+
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(VitC~Cult,data=veggy) 
+```
+The data shows that Q3 of C39 is smaller that Q1 of C52 indicating that they are indeed disjoint.
+
 
 ## Inferential Results
 
