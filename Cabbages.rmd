@@ -38,12 +38,13 @@ veggy <- cabbages
 
 ```{r}
 ggplot(veggy, aes(x = Cult, y = VitC)) +
-  geom_boxplot(fill = "lightblue", color = "black") +
+  geom_boxplot(fill = "lightblue", color = "black", outlier.color = "red", notch = TRUE) +
   labs(
-    title = "Box Plot of VitC by Cult",
     x = "Cult",
     y = "Vitamin C"
-  )
+  ) +
+  ggtitle("Notched Box Plot of VitC by Cult") +
+  theme(plot.title = element_text(hjust = 0.5, size = 16))
 ```
 
 
