@@ -80,3 +80,17 @@ The p-value is 0.00000003405. This clearly show that C39 and C52 are very differ
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+I started by having ChatfPT create a box plot, then I asked it to show the outliers in red and center the title. I also had ChatGPT make the title bigger.
+
+Once done, I had ChatGPT create a notch box plot.
+
+
+After viewing the data, It showed that C52 show a higher level of vitamin C. This clearly indicated a significant difference between the two disjointed factors. 
+
+After that I ran a t- test to further analyze the data.
+
+The p-value came out to be 0.00000003405 which clearly show that C39 and C52 are very different from each other.
+
+There is a difference in average VitC between c39 and c52 cultivation methods.
+
