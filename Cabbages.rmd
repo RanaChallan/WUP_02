@@ -49,7 +49,9 @@ ggplot(veggy, aes(x = Cult, y = VitC)) +
 
 
 
+Per the boxplot, C52 show a higher level of vitamin C.
 
+By looking at the two boxes you can clearly see they are disjoint. Indicating a high probability of a significant different.
 
 
 
